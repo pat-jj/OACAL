@@ -12,6 +12,6 @@ minimal||U = (u:User)@{u.enter_r,  u.login, u.select, u.charge, u.pay_pw,
 minimal||MU = (mu:User)@{mu.enter_r,  mu.login, mu.select, mu.charge, mu.pay_pw,
                          mu.decide_votes, mu.confirm, mu.logout, mu.exit_r, mu.back}.
 
-//||Env = (Room||U||MU||{u, mu}::BM_1).
+// ||Env = (Room||U||MU||{u, mu}::BM_1).
 
 

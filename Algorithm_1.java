@@ -3,7 +3,7 @@ import ic.doc.ltsa.lts.*;
 import javafx.util.Pair;
 import java.util.*;
 
-public class Algorithm_ {
+public class Algorithm_1 {
     int ReqNum = 6;
 
     private long TimeSpent = 0;
@@ -24,7 +24,7 @@ public class Algorithm_ {
         return Checking_Result;
     }
 
-    public Algorithm_()
+    public Algorithm_1()
     {
         System.out.println("Algorithm construct()");
     }
@@ -88,68 +88,6 @@ public class Algorithm_ {
                 "\t\t  |{mu, u}.pay_pw -> Q1).\n";
         String CHECK6 = "||Check = (Env||PayAfterCharge).";
 
-        for(int i = 0; i < ReqNum; i++) {
-            LTSFunction LTSfunc = new LTSFunction();
-            if(i == 0){
-                Check = Check1;
-                REQ = REQ1;
-                CHECK = CHECK1;
-            }
-
-            if(i == 1){
-                Check = Check2;
-                REQ = REQ2;
-                CHECK = CHECK2;
-            }
-            if(i == 2) {
-                Check = Check3;
-                REQ = REQ3;
-                CHECK = CHECK3;
-            }
-
-            if(i == 3){
-                Check = Check4;
-                REQ = REQ4;
-                CHECK = CHECK4;
-            }
-            if(i == 4){
-                Check = Check5;
-                REQ = REQ5;
-                CHECK = CHECK5;
-
-            }
-            if(i == 5){
-                Check = Check6;
-                REQ = REQ6;
-                CHECK = CHECK6;
-
-            }
-            LTSfunc.openFile("moti_example.lts", "<MOTI>", REQ, CHECK, BM);
-            LTSfunc.ModelChecking("Check");
-            LtK.LTSfunc = LTSfunc;
-//            System.out.println("Machine Behavior Model:\n"+LtK.getMachineBM());
-            LtK.RegexMatches(LtK.getMachineBM());
-            LtK.lts_to_ks();
-//        this.LTSfunc.ModelChecking("ORDER2");
-//        this.LTSfunc.assertion.compile(this.LTSfunc.myoutput, "assert NoPersonalInfoLeak = [](u.input_info -> [](!mu.input_info))");
-            CompositeState cs1 = LTSfunc.getCurrent();
-//        cs1.checkLTL(this.LTSfunc.myoutput, cs1);
-//            System.out.println("Hello, CompactStates " + cs1);
-            LTSfunc.newMachine(cs1);
-            for (int id = 0; id < LTSfunc.sm.length; id++) {
-                LTSfunc.printTransitions(id);
-            }
-            if(LTSfunc.violate_flag == 1) {
-                flag_v[i] = "         Y         ";
-                vio_req[i] = LTSfunc.violated_property + "   ";
-                Checking_Result.add(1);
-            }else{
-                flag_v[i] = "         N         ";
-                vio_req[i] = Check + "   ";
-                Checking_Result.add(0);
-            }
-
-        }
         LTSFunction LTSfunc1 = new LTSFunction();
         Check = "All";
         REQ = REQ1 + REQ2 + REQ3 + REQ4 + REQ5 + REQ6;
@@ -160,6 +98,33 @@ public class Algorithm_ {
         long end = System.currentTimeMillis();
 
         TimeSpent = (end - start);
+
+            LtK.LTSfunc = LTSfunc1;
+//            System.out.println("Machine Behavior Model:\n"+LtK.getMachineBM());
+            LtK.RegexMatches(LtK.getMachineBM());
+            LtK.lts_to_ks();
+//        this.LTSfunc.ModelChecking("ORDER2");
+//        this.LTSfunc.assertion.compile(this.LTSfunc.myoutput, "assert NoPersonalInfoLeak = [](u.input_info -> [](!mu.input_info))");
+            CompositeState cs1 = LTSfunc1.getCurrent();
+//        cs1.checkLTL(this.LTSfunc.myoutput, cs1);
+//            System.out.println("Hello, CompactStates " + cs1);
+            LTSfunc1.newMachine(cs1);
+            for (int id = 0; id < LTSfunc1.sm.length; id++) {
+                LTSfunc1.printTransitions(id);
+            }
+        System.out.println("violated properties!!!!" + LTSfunc1.violated_property);
+//            if(LTSfunc1.violate_flag == 1) {
+//                flag_v[i] = "         Y         ";
+//                vio_req[i] = LTSfunc1.violated_property + "   ";
+//                Checking_Result.add(1);
+//            }else{
+//                flag_v[i] = "         N         ";
+//                vio_req[i] = Check + "   ";
+//                Checking_Result.add(0);
+//            }
+
+
+
         //System.out.println("Model Checking Time: " + TimeSpent + "ms");
 
 //        System.out.println("---------------------------------------------\n" +
