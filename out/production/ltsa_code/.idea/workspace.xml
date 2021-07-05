@@ -10,28 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40cbfa5a-7796-46af-834d-93c19995ac68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CheckOASISDistribution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputeAvailableRevisions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/time.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/time1.txt" afterDir="false" />
+    <list default="true" id="40cbfa5a-7796-46af-834d-93c19995ac68" name="Default Changelist" comment="evaluation">
+      <change afterPath="$PROJECT_DIR$/DistributionPlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chart.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Retrieve_Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/Retrieve_Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SequenceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/SequenceGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/project_data_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/project_data_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moti_example.lts" beforeDir="false" afterPath="$PROJECT_DIR$/moti_example.lts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CheckOASISDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/CheckOASISDistribution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ltsa_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ltsa_code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ltsa_code/Algorithm_.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ltsa_code/Algorithm_.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ltsa_code/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ltsa_code/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ltsa_code/Retrieve_Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ltsa_code/Retrieve_Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ltsa_code/SequenceGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ltsa_code/SequenceGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ltsa_code/data/project_data_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ltsa_code/data/project_data_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ltsa_code/moti_example.lts" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ltsa_code/moti_example.lts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.module_consistency_OASIS">
+  <component name="RunManager" selected="Application.CheckOASISDistribution">
     <configuration name="CheckOASISDistribution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckOASISDistribution" />
       <module name="ltsa_code" />
@@ -120,8 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.module_consistency_OASIS" />
         <item itemvalue="Application.CheckOASISDistribution" />
+        <item itemvalue="Application.module_consistency_OASIS" />
         <item itemvalue="Application.ComputeAvailableRevisions" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Main" />
@@ -137,6 +121,14 @@
       <option name="presentableId" value="Default" />
       <updated>1614171796989</updated>
     </task>
+    <task id="LOCAL-00001" summary="evaluation">
+      <created>1625145638195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625145638195</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="evaluation" />
+    <option name="LAST_COMMIT_MESSAGE" value="evaluation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

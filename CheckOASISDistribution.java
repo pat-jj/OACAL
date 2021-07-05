@@ -1,7 +1,8 @@
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class CheckOASISDistribution {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(0, 1);
         list.add(1, 2);
@@ -60,7 +61,15 @@ public class CheckOASISDistribution {
         System.out.println("last unrepeated revision appears at: " + (idx_of_one.get(idx_of_one.size()-1) + 1));
         System.out.println("middle unrepeated revision appears at: " + (idx_of_one.get(count_one / 2) + 1));
 
-
+        ArrayList<Integer> distribute_plot = new ArrayList<>();
+        for (int i = 0; i < distribute.size(); i++) {
+            if (distribute.get(i) == 1){
+                distribute_plot.add(i, distribute.get(i));
+            }else{
+                distribute_plot.add(i, 0);
+            }
+        }
+        DistributionPlot.plot(distribute_plot);
     }
     public static ArrayList<Integer> OASIS_Coverage(int[] nums){
         ArrayList<Integer> original = new ArrayList<>();
