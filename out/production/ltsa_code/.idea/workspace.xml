@@ -10,12 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40cbfa5a-7796-46af-834d-93c19995ac68" name="Default Changelist" comment="evaluation">
-      <change afterPath="$PROJECT_DIR$/DistributionPlot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart.PNG" afterDir="false" />
+    <list default="true" id="40cbfa5a-7796-46af-834d-93c19995ac68" name="Default Changelist" comment="add Distribution_Plot">
+      <change afterPath="$PROJECT_DIR$/computeRatio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CheckOASISDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/CheckOASISDistribution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ltsa_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ltsa_code/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -66,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckOASISDistribution">
+  <component name="RunManager" selected="Application.computeRatio">
     <configuration name="CheckOASISDistribution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckOASISDistribution" />
       <module name="ltsa_code" />
@@ -81,15 +79,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="ltsa_code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="computeRatio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="computeRatio" />
       <module name="ltsa_code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.computeRatio" />
         <item itemvalue="Application.CheckOASISDistribution" />
-        <item itemvalue="Application.module_consistency_OASIS" />
         <item itemvalue="Application.ComputeAvailableRevisions" />
+        <item itemvalue="Application.module_consistency_OASIS" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625145638195</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Distribution_Plot">
+      <created>1625483495656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625483495657</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,7 +151,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="evaluation" />
-    <option name="LAST_COMMIT_MESSAGE" value="evaluation" />
+    <MESSAGE value="add Distribution_Plot" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Distribution_Plot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

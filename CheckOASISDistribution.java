@@ -1,4 +1,6 @@
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
 public class CheckOASISDistribution {
@@ -12,9 +14,9 @@ public class CheckOASISDistribution {
         list.add(5, 6);
         list.add(6, 7);
         list.add(7, 8);
-        list.add(8, 9);
+//        list.add(8, 9);
 
-        int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] nums = {1, 2, 3, 4, 5, 6, 7, 8};
         System.out.println(list);
 
 //        System.out.println(one_action(list));
@@ -69,6 +71,12 @@ public class CheckOASISDistribution {
                 distribute_plot.add(i, 0);
             }
         }
+        System.out.println("length of displot:  " + distribute_plot.size());
+        OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream("E:\\pythonProject1\\4modules.txt"), "utf-8");
+        osw.write(String.valueOf(distribute_plot));
+        osw.flush();
+        osw.close();
+
         DistributionPlot.plot(distribute_plot);
     }
     public static ArrayList<Integer> OASIS_Coverage(int[] nums){
