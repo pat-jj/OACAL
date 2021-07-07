@@ -10,12 +10,38 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40cbfa5a-7796-46af-834d-93c19995ac68" name="Default Changelist" comment="add Distribution_Plot">
-      <change afterPath="$PROJECT_DIR$/computeRatio.java" afterDir="false" />
+    <list default="true" id="40cbfa5a-7796-46af-834d-93c19995ac68" name="Default Changelist" comment="add ComputeRatio">
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/-------4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/-------5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/-------6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/-------7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/-------8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/-------9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/.idea/pythonProject1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/4modules.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/5modules.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/6modules.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/7modules.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/8modules.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/9modules.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/OASIS_OACAL.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/OASIS_OACAL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/distribution_plot_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/distribution_plot_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/distribution_plot_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/distribution_plot_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/distribution_plot_9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_in_python/trial.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CheckOASISDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/CheckOASISDistribution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ltsa_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ltsa_code/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625483495657</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add ComputeRatio">
+      <created>1625586093809</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625586093809</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,7 +187,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="evaluation" />
     <MESSAGE value="add Distribution_Plot" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Distribution_Plot" />
+    <MESSAGE value="add ComputeRatio" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ComputeRatio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -72,7 +72,7 @@ public class CheckOASISDistribution {
             }
         }
         System.out.println("length of displot:  " + distribute_plot.size());
-        OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream("E:\\pythonProject1\\4modules.txt"), "utf-8");
+        OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(".\\analysis_in_python\\8modules.txt"), "utf-8");
         osw.write(String.valueOf(distribute_plot));
         osw.flush();
         osw.close();
